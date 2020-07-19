@@ -1,162 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Assignment_1</title>
-</head>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<style type="text/css">
-*{
-	box-sizing: border-box;
-	font-family: comic sans ms;
+    <title>Module 3 Solution page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+      * {
+    box-sizing: border-box;
+    font-family: Comic sans MS;
 }
 
-body{
-	text-align: center;
+#nav-list > li {
+    text-align: center;
+
+}
+#text > h3 {
+    margin-bottom: 15px;
+}
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
 }
 
-.sec{
-	border: 2px black solid;
-	margin: 18px;
-	background: #FFE4B5;
-	display: inline-block;
-	width: 22%;
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
 }
 
-p{
-	padding: 6px;
-	text-align: left;
-	float: left;
-	margin-top: 0px;
+div section {
+    margin: 10px;
+    padding: 10px;
+}
+#section-1{
+    background-color: darkgrey;
+    border: 1px solid black;
 }
 
-.hr{
-	float: right;
-	border: 2px black solid;
-	border-right: none;
-	border-top: none;
-	padding: 5px;
-	box-sizing: border-box;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background: rosybrown;
-	text-align: center; 
-	width: 30%;
+#section-2 {
+    background-color: darkgrey;
+     border: 1px solid black;
 }
 
-.b{
-	background: #ADD8E6;
+#section-3 {
+    background-color: darkgrey;
+     border: 1px solid black;
 }
 
-.s{
-	background: #F08080;
-}
-
-@media(max-width: 767px){
-	.li-1{
-		width: 8.33%;
-	}
-	.li-2{
-		width: 16.66%;
-	}
-	.li-3{
-		width: 25%;
-	}
-	.li-4{
-		width: 33%;
-	}
-	.li-5{
-		width: 41.66%;
-	}
-	.li-6{
-		width: 50%;
-	}
-	.li-7{
-		width: 58.33%;
-	}
-	.li-8{
-		width: 66.66%;
-	}
-	.li-9{
-		width: 74.99%;
-	}
-	.li-10{
-		width: 83.33%;
-	}
-	.li-11{
-		width: 91.66%;
-	}
-	.li-12{
-		width: 100%;
-	}
-}
-
-@media(min-width: 768px) and (max-width: 991px){
-	.md-1{
-		width: 8.33%;
-	}
-	.md-2{
-		width: 16.66%;
-	}
-	.md-3{
-		width: 25%;
-	}
-	.md-4{
-		width: 33%;
-	}
-	.md-5{
-		width: 41.66%;
-	}
-	.md-6{
-		width: 50%;
-	}
-	.md-7{
-		width: 58.33%;
-	}
-	.md-8{
-		width: 66.66%;
-	}
-	.md-9{
-		width: 74.99%;
-	}
-	.md-10{
-		width: 83.33%;
-	}
-	.md-11{
-		width: 91.66%;
-	}
-	.md-12{
-		width: 100%;
-	}
-}
-h1 {
-	text-align: center;
-}
-</style>
+    </style>
+  </head>
 <body>
-<h1>Our Menu</h1>
 
-<section class="sec li-9 md-4">
-	<h2 class="hr">Meat</h2>
-	<p>
-		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerciation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	</p>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html">Food, LLC</a>
+          </div>
 
-</section>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
 
-<section class="sec li-9 md-4">
-	<h2 class="hr b">Beef</h2>
-	<p>
-		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerciation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	</p>
-</section>
+      </div>
 
-<section class="sec li-9 md-4 md-9">
-	<h2 class="hr s">Fish</h2>
-	<p>
-		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerciation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	</p>
-</section>
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+           <li>
+             <a href="#section-1">Chicken</a>
+           </li>
+           <li>
+             <a href="#section-2">Beaf</a>
+           </li>
+           <li>
+             <a href="#section-3">Sushi</a>
+           </li>
+         </ul><!-- #nav-list -->
+       </div><!-- .collapse .navbar-collapse -->
+
+
+    </nav>
+  </header>
+
+  <div>
+      <h2 id="page-heading" class="text-center">Our Menu</h2>
+  </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <section id="section-1">
+              <h3 class="text-center">Chicken</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac.
+                  <br><a href="#top"> Back To Top</a>
+                </p>
+          </section>
+
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <section id="section-2">
+              <h3 class="text-center">Beef</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. 
+
+              <br><a href="#top"> Back To Top</a>
+                </p>
+          </section>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4">
+          <section id="section-3">
+              <h3 class="text-center">Sushi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tristique ipsum sit amet nunc posuere, at dictum massa fermentum. Sed tempor turpis quis dui pharetra, eu suscipit elit cursus. Praesent sed libero turpis. Aliquam varius elit mauris, vestibulum laoreet leo rhoncus ac. Fusce at facilisis velit. Vivamus facilisis semper risus, et efficitur justo suscipit ac. 
+
+                  <br><a href="#top"> Back To Top</a>
+                </p>
+          </section>
+        </div>
+
+
+      </div>
+    </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
